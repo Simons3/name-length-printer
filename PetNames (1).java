@@ -3,7 +3,7 @@ public class PetNames{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         String names = "", newName = "";
-        int petCount = 0, counter = 0;
+        int petCount = 1, counter = 0;
     
         System.out.println("How many pets do you have? ");
         petCount = input.nextInt();
